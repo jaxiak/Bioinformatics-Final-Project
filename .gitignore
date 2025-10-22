@@ -1,0 +1,10 @@
+local_paths.txt
+*.egg-info
+/tests/__pycache__/
+*/__pycache__/
+*.pyc
+generate_test_sample.py
+.vscode/*
+*.tsv
+*.parquet
+/data/*

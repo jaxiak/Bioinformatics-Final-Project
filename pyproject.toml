@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Breast Cancer Disease Classifier"
+version = "0.0.1"
+authors = [
+  { name="Imra Asif, Amit Banik, Joseph Axiak", email="jaxiak@gmail.com" },
+]
+description = "Final project for CSE 5800 Bioinformatics, Fall 2025"
+readme = "README.md"
+requires-python = ">=3.14"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: GNU GPLv3",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pandas >= 2.3.3"
+"tqdm >= 4.67.1"
+"fastparquet >= 2024.11.0"
+
+]
+[tool.setuptools]
+py-modules = []
