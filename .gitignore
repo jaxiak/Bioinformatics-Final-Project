@@ -8,3 +8,4 @@ generate_test_sample.py
 *.tsv
 *.parquet
 /data/*
+*.csv
